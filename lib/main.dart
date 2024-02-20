@@ -76,7 +76,7 @@ class _HomeState extends State<Home> {
             crossAxisAlignment: CrossAxisAlignment.center,
 
             children: <Widget>[
-              Image.asset("images/logo_frases.png"),
+              Image.asset("images/logo_frases.png"),  //adicionar asset da imagem em "pubspec.yaml"
                Text(
                 _fraseGerada,
                 textAlign: TextAlign.justify,
